@@ -163,7 +163,6 @@ $radius:  14px;
 }
 
 @media (max-width: 640px) {
-  .catalog-products                        { padding: 56px 3%; }
   .catalog-products__filters .filters-row  { grid-template-columns: repeat(6, 1fr); }
   .catalog-products__filters .filters-control,
   .catalog-products__filters .filters-reset { grid-column: span 6; }
@@ -175,19 +174,16 @@ $radius:  14px;
 /* Крупные экраны — FHD (≥1920px): 5 колонок, чуть больше зазор и внутренние поля */
 @media (min-width: 1920px) {
   .catalog-products__grid { grid-template-columns: repeat(5, 1fr); gap: 20px; }
-  .catalog-products { padding-left: max(4%, 48px); padding-right: max(4%, 48px); }
 }
 
 /* 2K/QHD (≥2560px): 6 колонок */
 @media (min-width: 2560px) {
   .catalog-products__grid { grid-template-columns: repeat(6, 1fr); gap: 22px; }
-  .catalog-products { padding-left: max(6%, 64px); padding-right: max(6%, 64px); }
 }
 
 /* 4K (≥3840px): 8 колонок */
 @media (min-width: 3840px) {
   .catalog-products__grid { grid-template-columns: repeat(8, 1fr); gap: 24px; }
-  .catalog-products { padding-left: max(8%, 80px); padding-right: max(8%, 80px); }
 }
 
 /* Ниже десктопа */
@@ -207,9 +203,15 @@ $radius:  14px;
   // }
 }
 
+@media (max-width: 992px) {
+
+  .catalog-products__title{
+    margin-top: 50px;
+  }
+}
+
 /* Мобилы (≤599px): 1 колонка, компактные отступы */
 @media (max-width: 599px) {
   .catalog-products__grid { grid-template-columns: 1fr; gap: 16px; }
-  .catalog-products { padding: 56px 3%; }
   .product__img{width: 100%; height: auto !important;}
 }

@@ -63,6 +63,7 @@ export default function Header() {
       {/* Мобильное меню */}
       <div className={`mobile_menu ${isMenuOpen ? "open" : ""}`}>
         <ul>
+          <li><Link href="/" onClick={closeMenu}>Главная</Link></li>
           <li><Link href="/catalog" onClick={closeMenu}>Каталог</Link></li>
           <li><Link href="/buy" onClick={closeMenu}>Где купить</Link></li>
           <li><Link href="/certificates" onClick={closeMenu}>Сертификаты</Link></li>
