@@ -146,19 +146,24 @@
 
 /* ====== мобильные штрихи ====== */
 @media (max-width: 1400px) {
+  .why-brands__title{font-size: 25px;}
   .why-card__caption{font-size: 25px;}
   .why-card{aspect-ratio: auto;}
   .why-card--brands { aspect-ratio: auto; }
 }
 
 @media (max-width: 920px) {
+  .why-brands__title{font-size: 30px;}
   .why{
     margin-bottom: 50px;
+  }
+  .why-title{
+    font-size: 42px !important;
   }
 }
 
 @media (max-width: 420px) {
-  .why-brands__title{font-size: 25px;}
+  
   .why-title{font-size: 30px !important;}
   .why-card--brands { aspect-ratio: 5 / 9; }
   .why-brands__logos img { max-width: 82%; }

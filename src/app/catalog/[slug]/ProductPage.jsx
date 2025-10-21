@@ -66,7 +66,7 @@ export default function ProductPage({ product, related = [] }) {
 
             <div className="product-page__grid">
               {related.map((p) => (
-                <Link key={p.slug} href={`/products/${p.slug}`} className="product-page__tile">
+                <Link key={p.slug} href={`/catalog/${p.slug}`} className="product-page__tile">
                   <article className="product-page__card">
                     <img src={p.image} alt={p.name} />
                     <h4 className="product-page__card-title">{p.name}</h4>

@@ -176,14 +176,14 @@ $radius:  14px;
 
   &__card {
     background: #fff;
-    border: 1px solid $line;
-    border-radius: $radius;
+    
     overflow: hidden;
     transition: transform .2s ease, box-shadow .2s ease;
 
-    &:hover { transform: translateY(-4px); box-shadow: 0 12px 28px rgba(0,0,0,.12); }
+    &:hover { transform: translateY(-4px) }
 
     img {
+      border-radius: $radius;
       width: 100%;
       aspect-ratio: 4 / 3;
       object-fit: cover;
@@ -219,7 +219,7 @@ $radius:  14px;
 
 /* ===== Responsive ===== */
 @media (max-width: 1279px) {
-  .product-page__header { grid-template-columns: 1fr; }
+  
   .product-page__grid   { grid-template-columns: repeat(3, 1fr); }
 }
 
@@ -228,6 +228,7 @@ $radius:  14px;
 }
 
 @media (max-width: 992px) {
+  .product-page__header { grid-template-columns: 1fr; }
   .product-page{margin-top: 60px; margin-bottom: 50px;}
 }
 

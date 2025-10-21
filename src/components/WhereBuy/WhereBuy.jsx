@@ -7,7 +7,7 @@ const BRANCHES = [
   {
     city: "Красноярск (головной офис)",
     address: "ул. 60 лет Октября, 150",
-    phone: "+7 (391) 217-89-92",
+    phone: "+7 (391) 286-11-95",
     site: "https://atmosfera-24.ru/",
   },
   {
@@ -19,13 +19,13 @@ const BRANCHES = [
   {
     city: "Иркутск",
     address: "ул. Можайского, 6А",
-    phone: "",
+    phone: "7 (3952) 50-01-68",
     site: "https://atmosfera-24.ru/",
   },
   {
     city: "Кемерово",
     address: "ул. 40 лет Октября, 2 к3 (оф. 19)",
-    phone: "+7 (3842) 44-22-33",
+    phone: "+7 (950) 402-69-26",
     site: "https://atmosfera-24.ru/",
   },
   {
@@ -43,7 +43,7 @@ const BRANCHES = [
    {
     city: "Омск",
     address: "ул. 10 лет Октября, 217, 2 этаж",
-    phone: "",
+    phone: "+7 (3812) 50-19-16",
     site: "https://atmosfera-24.ru/",
   },
 ];

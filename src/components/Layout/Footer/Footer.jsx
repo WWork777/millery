@@ -9,10 +9,10 @@ export default function Footer() {
           <a href="/catalog"><h4 className="footer__title">Каталог</h4></a>
           
           <ul className="footer__list">
-            <li><a href="">Эко</a></li>
             <li><a href="/catalog?purpose=для+дома">Для дома</a></li>
-            <li><a href="/catalog?purpose=уборка">Для уборки</a></li>
             <li><a href="/catalog?purpose=для+стирки">Для стирки</a></li>
+            <li><a href="/catalog?purpose=для+себя">Для себя</a></li>
+            <li><a href="/catalog?purpose=эко">Эко</a></li>
           </ul>
         </div>
 

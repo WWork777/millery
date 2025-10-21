@@ -13,7 +13,7 @@ export default function Home() {
     {
       image: "/images/Products/1.jpg",
       name: "Мыло жидкое антибактериальное, 500 мл",
-      link: "ya.ru"
+      link: "/catalog/cleaner-500"
     },
     {
       image: "/images/Products/2.jpg",

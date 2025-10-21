@@ -3,10 +3,10 @@ import "./Category.scss"; // Импортируем отдельный файл 
 
 export default function Category() {
   const categories = [
-    { title: "ДЛЯ ДОМА", image: "/images/Category/forHome.jpg", gradientClass: "gradient-home", link: "уборка" },
-    { title: "ДЛЯ СТИРКИ", image: "/images/Category/forStirka.png", gradientClass: "gradient-Stirka", link: "уборка"  },
-    { title: "ДЛЯ СЕБЯ", image: "/images/Category/forYourself.jpg", gradientClass: "gradient-self", link: "уборка" },
-    { title: "ЭКО", image: "/images/Category/Eco.jpg", gradientClass: "gradient-eco", link: "уборка" },
+    { title: "ДЛЯ ДОМА", image: "/images/Category/forHome.jpg", gradientClass: "gradient-home", link: "для дома" },
+    { title: "ДЛЯ СТИРКИ", image: "/images/Category/forStirka.png", gradientClass: "gradient-Stirka", link: "для стирки"  },
+    { title: "ДЛЯ СЕБЯ", image: "/images/Category/forYourself.jpg", gradientClass: "gradient-self", link: "для себя" },
+    { title: "ЭКО", image: "/images/Category/Eco.jpg", gradientClass: "gradient-eco", link: "эко" },
   ];
 
   return (

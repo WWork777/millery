@@ -10,7 +10,7 @@ const data = [
   {
     name: "Чистящее средство, 500 мл",
     price: 390,
-    purpose: "уборка",
+    purpose: "для дома",
     image: "/images/Products/1.jpg",
     link: "/catalog/cleaner-500",
   },
@@ -22,9 +22,16 @@ const data = [
     link: "/catalog/shampoo-250",
   },
   {
+    name: "Шампунь для волос, 250 мл",
+    price: 300,
+    purpose: "для дома",
+    image: "/images/Products/2.jpg",
+    link: "/catalog/shampoo-250",
+  },
+  {
     name: "Гель для стирки, 1 л",
     price: 590,
-    purpose: "для стирки",
+    purpose: "для себя",
     image: "/images/Products/3.jpg",
     link: "/catalog/laundry-1l",
   },
@@ -45,7 +52,7 @@ const data = [
   {
     name: "Гель для душа, 300 мл",
     price: 360,
-    purpose: "для дома",
+    purpose: "эко",
     image: "/img/products/showergel-300.jpg",
     link: "/catalog/showergel-300",
   },
@@ -109,9 +116,12 @@ export default function ProductsCatalog() {
               onChange={(e) => setPurpose(e.target.value)}
             >
               <option value="all">Все</option>
-              <option value="уборка">Уборка</option>
               <option value="для дома">Для дома</option>
               <option value="для стирки">Для стирки</option>
+              <option value="для себя">Для себя</option>
+              <option value="эко">Эко</option>
+              
+              
             </select>
           </div>
 

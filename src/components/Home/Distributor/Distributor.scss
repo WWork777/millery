@@ -74,6 +74,9 @@
     .distributor-cities {
         gap: 24px 35px !important;
     }
+    .distributor-logo img {
+      max-height: 170px;
+    }
 }
 
 /* ====== Адаптивные стили ====== */
@@ -84,6 +87,9 @@
     justify-content: center;
     padding: 20px;
   }
+  .distributor-logo img {
+      max-height: 225px;
+    }
 
   .distributor-logo {
     margin-bottom: 20px; /* Отступ между логотипом и информацией */

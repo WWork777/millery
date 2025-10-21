@@ -18,7 +18,7 @@ body {
 }
 
 body {
-  color: var(--foreground);
+  color: #000;
   background: white;
   font-family: "Avenir" !important;
   -webkit-font-smoothing: antialiased;
