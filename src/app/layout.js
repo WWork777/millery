@@ -4,6 +4,7 @@ import localFont from "next/font/local";
 import Header from "@/components/Layout/Header/Header";
 import Footer from "@/components/Layout/Footer/Footer";
 import RecentViewed from "@/components/RecentViewed/RecentViewed";
+import YandexMetrika from "@/components/YandexMetrika/YandexMEtrika";
 
 
 const Avenir = localFont({
@@ -43,6 +44,7 @@ export default function RootLayout({ children }) {
 
 
       <body className={` ${Avenir.variable}`}>
+        <YandexMetrika/>
         <div className="page">
           <Header/>
           <div className="page-content">
