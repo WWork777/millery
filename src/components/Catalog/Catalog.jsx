@@ -121,6 +121,7 @@ export default function ProductsCatalog() {
               <option value="для стирки">Для стирки</option>
               <option value="для себя">Для себя</option>
               <option value="эко">Эко</option>
+              <option value="СТМ">СТМ</option>
               
               
             </select>
