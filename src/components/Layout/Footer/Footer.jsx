@@ -40,6 +40,7 @@ export default function Footer() {
             <li><a href="tel:+79236165991">+7 (923) 616-59-91</a></li>
             <li><a href="tel:+7(3842)441-515">8 (3842) 441-515</a></li>
             <li><a href="mailto:pkf.millery@yandex.ru">pkf.millery@yandex.ru</a></li>
+            <li><a href="https://t.me/industrymillery">t.me/industrymillery</a></li>
           </ul>
         </div>
       </div>
